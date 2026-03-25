@@ -5,9 +5,10 @@
 **Year:** 2025  
 
 ## Overview
-An NLP-based binary classification system to detect misinformation in news articles. 
-The system classifies news as real or fake using TF-IDF vectorisation and Logistic 
-Regression, achieving strong performance on a benchmark dataset.
+An NLP-based binary classification system to detect misinformation 
+in news articles. Trained and evaluated four ML models (Logistic 
+Regression, Naive Bayes, SVM, Random Forest) with Logistic Regression 
+achieving the best performance on the ISOT Fake News Dataset.
 
 ## Results
 | Metric | Score |
@@ -39,7 +40,10 @@ streamlit run app.py
 ```
 
 ## Dataset
-Binary classification benchmark dataset containing real and fake news articles.
+ISOT Fake News Dataset (University of Victoria)
+- Real news collected from Reuters.com
+- Fake news collected from unreliable sources flagged by Politifact
+- Binary classification: Real (1) vs Fake (0)
 
 ## Author Note
 This project was developed as part of B.E. Computer Science coursework at 
